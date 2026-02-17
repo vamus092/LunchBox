@@ -7,11 +7,12 @@ import { Router } from '@angular/router';
 import { UserModel } from '../model/UserModel';
 import { UserService } from '../services/user-service';
 import { DealsComponent } from '../deals/deals';
+import {Promo} from '../promo/promo';
 
 @Component({
   selector: 'app-home-page',
   standalone: true,
-  imports: [CommonModule,DealsComponent],
+  imports: [CommonModule,DealsComponent,Promo],
   templateUrl:'./home-page.html',
   styleUrl:'./home-page.css',
 })

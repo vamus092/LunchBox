@@ -1,0 +1,81 @@
+.promo-container {
+  background-color: #EEEEEE; /* Matches the light gray background in the image */
+  border-radius: 20px;
+  margin: 40px 60px;
+  overflow: hidden;
+  font-family: 'Inter', sans-serif;
+}
+
+.promo-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 0 50px; /* Padding on the left to keep text away from edge */
+}
+
+.text-side {
+  flex: 1;
+  max-width: 500px;
+}
+
+.headline {
+  font-size: 40px;
+  font-weight: 800;
+  color: #03081F;
+  line-height: 1.2;
+}
+
+.highlight-box {
+  display: block;
+  background-color: #03081F;
+  color: #FC8A06; /* The signature orange from your UI */
+  padding: 5px 15px;
+  border-radius: 59px;
+  width: fit-content;
+  margin-top: 10px;
+
+}
+
+.subtext {
+  font-size: 18px;
+  color: #03081F;
+  margin: 20px 0;
+}
+
+.store-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.store-link img {
+  height: 45px;
+  transition: transform 0.2s ease;
+}
+
+.store-link:hover img {
+  transform: scale(1.05);
+}
+
+.image-side {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 1024px) {
+  .promo-content {
+    flex-direction: column;
+    padding: 40px;
+    text-align: center;
+  }
+  .highlight-box { margin: 10px auto; }
+  .store-buttons { justify-content: center; }
+  .image-side { margin-top: 30px; }
+}
