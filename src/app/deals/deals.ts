@@ -15,17 +15,17 @@ export class DealsComponent {
 
   allRestaurants: Restaurant[] = [
     { name: 'Chef Burgers London', discount: '-40%', image: 'assets/h1.avif', category: 'Pizza & Fast food' },
-    { name: 'Grand Ai Cafe London', discount: '-20%', image: 'assets/cafe.jpg', category: 'Vegan' },
+    { name: 'Grand Ai Cafe London', discount: '-20%', image: 'assets/h9.avif', category: 'Vegan' },
     { name: 'Butterbrot Caf\'e London', discount: '-17%', image: 'assets/h2.avif', category: 'Pizza & Fast food' },
-        { name: 'Butterbrot Caf\'e London', discount: '-17%', image: 'assets/h3.avif', category: 'Pizza & Fast food' },
+        { name: 'Vibe & Veggie London', discount: '-17%', image: 'assets/h3.avif', category: 'Pizza & Fast food' },
 
-            { name: 'Butterbrot Caf\'e London', discount: '-17%', image: 'assets/h4.avif', category: 'Vegan' },
+              { name: ' London', discount: '-17%', image: 'assets/h4.avif', category: 'Vegan' },
 
                 { name: 'Butterbrot Caf\'e London', discount: '-17%', image: 'assets/h5.avif', category: 'Vegan' },
 
-                    { name: 'Butterbrot Caf\'e London', discount: '-17%', image: 'assets/h6.avif', category: 'Sushi' },
+                    { name: 'Rolling Wasabi', discount: '-17%', image: 'assets/h6.avif', category: 'Sushi' },
 
-                        { name: 'Butterbrot Caf\'e London', discount: '-17%', image: 'assets/h8.avif', category: 'Sushi' },
+                        { name: 'Crust & Co.', discount: '-17%', image: 'assets/h8.avif', category: 'Sushi' },
 
                             { name: 'Butterbrot Caf\'e London', discount: '-17%', image: 'assets/h7.avif', category: 'Sushi' }
 
