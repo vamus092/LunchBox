@@ -50,7 +50,7 @@
 .restaurant-card {
   border-radius: 15px;
   overflow: hidden;
-  height: 280px;
+  height: 20rem;
   box-shadow: 0 10px 30px rgba(0,0,0,0.08);
   position: relative;
 }
@@ -105,7 +105,7 @@
 }
 
 /* Responsive Logic */
-@media (max-width: 1024px) {
+@media (max-width: 900px) {
   .restaurant-grid { grid-template-columns: repeat(2, 1fr); }
   .deals-header { flex-direction: column; align-items: flex-start; }
 }
